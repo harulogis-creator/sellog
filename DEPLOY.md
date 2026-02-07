@@ -40,6 +40,7 @@ Vercel + Supabase로 배포할 때 참고용 체크리스트입니다.
    - `supabase/migrations/004_thumbnail_url.sql` — 썸네일
    - `supabase/migrations/005_product_images_storage.sql` — 상품 이미지 스토리지
    - `supabase/migrations/006_profiles.sql` — 프로필 테이블·가입 시 자동 생성
+   - `supabase/migrations/007_meta_description.sql` — posts.meta_description (SEO·OG)
 3. **Authentication → URL Configuration**에서 Site URL을 `SITE_URL`과 맞춥니다.
 4. **Redirect URLs**에 `https://your-domain.com/auth/callback` (및 로컬: `http://localhost:3000/auth/callback`)을 추가합니다.
 5. **OAuth 사용 시**: **Authentication → Providers**에서 GitHub·Google 등을 켜고, 각 Provider 대시보드에서 Callback URL을 Supabase가 안내하는 주소로 설정합니다.

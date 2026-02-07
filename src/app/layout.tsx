@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "sonner";
 import { LocaleProvider } from "@/components/LocaleProvider";
 import { SkipToContentLink } from "@/components/SkipToContentLink";
@@ -33,6 +34,7 @@ export default function RootLayout({
           <SkipToContentLink />
         <div id="main-content" tabIndex={-1}>{children}</div>
         <Toaster position="top-center" richColors closeButton />
+        <Analytics />
         </LocaleProvider>
       </body>
     </html>

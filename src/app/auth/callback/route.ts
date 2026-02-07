@@ -11,9 +11,10 @@ export async function GET(request: NextRequest) {
   const code = searchParams.get("code");
   const next = searchParams.get("next") ?? "/www";
 
+  const loginErrorUrl = "/ko/www/login"; // [domain]/www/login 구조에 맞춤
   if (!code) {
     return NextResponse.redirect(
-      new URL("/www/login?error=no_code", request.url)
+      new URL(`${loginErrorUrl}?error=no_code`, request.url)
     );
   }
 
@@ -21,7 +22,7 @@ export async function GET(request: NextRequest) {
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!supabaseUrl || !supabaseAnonKey) {
     return NextResponse.redirect(
-      new URL("/www/login?error=config", request.url)
+      new URL(`${loginErrorUrl}?error=config`, request.url)
     );
   }
 
@@ -42,7 +43,7 @@ export async function GET(request: NextRequest) {
   const { error } = await supabase.auth.exchangeCodeForSession(code);
   if (error) {
     return NextResponse.redirect(
-      new URL("/www/login?error=unknown", request.url)
+      new URL(`${loginErrorUrl}?error=unknown`, request.url)
     );
   }
 
