@@ -1,0 +1,523 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "error": {
+      "title": "Something went wrong",
+      "description": "A temporary error occurred. Please try again later.",
+      "retry": "Try again",
+      "home": "Go home"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you requested may not exist or may have moved.",
+      "home": "Go home"
+    },
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "passwordMin": "Password (6+ characters)"
+    },
+    "a11y": {
+      "skipToContent": "Skip to main content"
+    },
+    "ai": {
+      "apiKeyRequired": "Set OPENAI_API_KEY on the server to use AI features.",
+      "noResponse": "AI could not generate a response.",
+      "unknown": "An error occurred while generating."
+    }
+  },
+  "www": {
+    "banner": {
+      "title": "Start for free.",
+      "description": "Sign up without a credit card and launch your blog in minutes.",
+      "cta": "Get started",
+      "closeLabel": "Close banner"
+    },
+    "meta": {
+      "title": "Sellog | Blog and commerce in one place",
+      "description": "An SEO-friendly blog commerce platform. Write posts, sell products, and grow your brand at a single address.",
+      "ogDescription": "An SEO-friendly blog commerce platform."
+    },
+    "a11y": {
+      "skipToContent": "Skip to main content"
+    },
+    "hero": {
+      "title": "Blog and commerce in one place",
+      "description": "An SEO-friendly blog commerce platform. Write posts, sell products, and grow your brand at a single address.",
+      "cta": "Get started free",
+      "ctaSub": "No credit card required",
+      "tagline": "Less structure, more intelligence."
+    },
+    "nav": {
+      "features": "Features",
+      "how": "How to start",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "login": "Log in",
+      "signup": "Get started",
+      "myBlog": "My blog",
+      "logout": "Log out",
+      "ariaMainMenu": "Main menu",
+      "ariaOpenMenu": "Open menu",
+      "ariaCloseMenu": "Close menu",
+      "ariaMobileMenu": "Mobile menu"
+    },
+    "megamenu": {
+      "product": "Product",
+      "resources": "Resources"
+    },
+    "auth": {
+      "login": "Log in",
+      "loggingIn": "Signing in…",
+      "signUp": "Sign up",
+      "signingUp": "Signing up…",
+      "orSocialLogin": "Or sign in with your social account",
+      "orSocialSignup": "Or sign up with your social account",
+      "continueGitHub": "Continue with GitHub",
+      "continueGoogle": "Continue with Google",
+      "errors": {
+        "no_code": "The sign-in request expired or was invalid. Please try again.",
+        "config": "Service configuration error. Please contact the administrator.",
+        "email_password_required": "Please enter your email and password.",
+        "password_min_length": "Password must be at least 6 characters.",
+        "unknown": "An error occurred while signing in or signing up. Please try again."
+      }
+    },
+    "join": {
+      "subdomain": "Subdomain",
+      "name": "Blog name",
+      "description": "Short description (optional)",
+      "subdomainPlaceholder": "my-shop",
+      "namePlaceholder": "My Shop",
+      "descriptionPlaceholder": "Handmade cookies and jam",
+      "subdomainTitle": "Lowercase letters, numbers, and hyphens only",
+      "addressHint": "Blog URL: subdomain.sellog.com (local: /subdomain)",
+      "create": "Create blog",
+      "creating": "Creating…",
+      "errors": {
+        "env_missing": "Supabase env vars are missing. Add NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY to .env.local and restart the dev server.",
+        "login_required": "Please sign in to create a blog.",
+        "subdomain_name_required": "Please enter subdomain and blog name.",
+        "subdomain_format": "Subdomain can only contain lowercase letters, numbers, and hyphens.",
+        "subdomain_min_length": "Subdomain must be at least 2 characters.",
+        "subdomain_taken": "This subdomain is already in use.",
+        "unknown": "An error occurred while saving."
+      }
+    },
+    "footer": {
+      "product": "Product",
+      "support": "Support",
+      "company": "Company",
+      "follow": "Follow",
+      "language": "Language",
+      "needHelp": "Need help?",
+      "needHelpDesc": "Find answers in FAQ and connection status.",
+      "faq": "FAQ",
+      "connectionCheck": "Connection status",
+      "docs": "Docs (coming soon)",
+      "contact": "Contact",
+      "about": "About",
+      "comingSoon": "Coming soon",
+      "korean": "한국어",
+      "english": "English",
+      "copyright": "SEO-friendly blog commerce.",
+      "supportBlurb": "Find answers anytime in FAQ and connection status.",
+      "ariaLabelKorean": "Korean",
+      "ariaLabelEnglish": "English",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "features": {
+      "greatFor": "Great for",
+      "seo": "Creators · Bloggers · SMBs",
+      "blogCommerce": "Bloggers · Sellers · Content creators",
+      "domain": "Brands · Sole proprietors · Teams",
+      "payment": "SMBs · Dropship · Fan shops",
+      "editor": "Writers · Marketers",
+      "dashboard": "Solo creators · Small teams"
+    },
+    "how": {
+      "title": "How to start",
+      "step1Title": "Sign up & create a blog",
+      "step1Text": "Register with your email and set your blog name and address (subdomain).",
+      "step2Title": "Write posts & add products",
+      "step2Text": "Write in Markdown, add products, and embed product cards in your posts.",
+      "step3Title": "Share & sell",
+      "step3Text": "Share your blog URL and connect a payment provider to accept orders."
+    },
+    "showcase": {
+      "title": "Made with Sellog",
+      "subtitle": "Many blogs are already running on Sellog."
+    },
+    "testimonial": {
+      "title": "What people say",
+      "quote1": "Managing my blog and store in one place made everything simpler. SEO is well taken care of.",
+      "author1": "Sellog user",
+      "quote2": "Being able to start a blog and sell without coding kept the barrier low.",
+      "author2": "Sellog user"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": "How do I create a blog with Sellog?",
+      "a1": "Sign up for free, then enter a subdomain (e.g. myblog) and blog name in the blog setup. You can write posts and add products from your blog dashboard.",
+      "q2": "Do I need to code to build my website?",
+      "a2": "No. Sellog is designed so you can run your blog and products without coding. Write posts in Markdown and add products through the form.",
+      "q3": "How much does it cost?",
+      "a3": "You can start for free. Sign-up, blog creation, posts, and products are free. Payment provider (PG) fees may apply when you connect one. Paid plans will be announced later.",
+      "q4": "Can I use my own (custom) domain?",
+      "a4": "Yes. Enter your custom domain in blog settings and point DNS as instructed. Your blog will be available at your domain.",
+      "q5": "Is it good for search engines?",
+      "a5": "Yes. All pages are server-rendered (Next.js) with meta tags, Open Graph, sitemap, and robots.txt set up automatically.",
+      "q6": "How do I accept payments?",
+      "a6": "Checkout and order storage are built in. Connect a payment provider (e.g. Stripe) to accept payments. See the docs for integration."
+    },
+    "proof": {
+      "label1": "Blog",
+      "sublabel1": "Ready to launch",
+      "label2": "SEO",
+      "sublabel2": "Auto-optimized",
+      "label3": "One place",
+      "sublabel3": "Blog · Products · Payments"
+    },
+    "allInOne": {
+      "title": "Everything in one platform",
+      "subtitle": "Blog, products, SEO, domain, payments, settings, writing, orders.",
+      "blog": "Blog",
+      "product": "Products",
+      "seo": "SEO",
+      "domain": "Domain",
+      "payment": "Payments",
+      "settings": "Settings",
+      "writing": "Writing",
+      "orders": "Orders"
+    },
+    "featuresSection": {
+      "title": "Blog and sales in one",
+      "subtitle": "SEO, subdomain, payments. Change how you work with an all-in-one platform."
+    },
+    "featuresCard": {
+      "titleSeo": "SEO optimized",
+      "descSeo": "SSR, meta tags, and sitemap are managed so every page is ready for search engines.",
+      "titleBlogCommerce": "Blog + products",
+      "descBlogCommerce": "Write in Markdown and embed product cards in posts to sell naturally.",
+      "titleDomain": "Your own address",
+      "descDomain": "Use a subdomain (you.sellog.com) or custom domain as your single brand URL.",
+      "titlePayment": "Payments & orders",
+      "descPayment": "Checkout and order tables are ready; connect a PG to start selling.",
+      "titleEditor": "Markdown editor",
+      "descEditor": "Write and insert products in one place for content and commerce.",
+      "titleDashboard": "Manage in one place",
+      "descDashboard": "Posts, products, settings, and orders from one blog dashboard."
+    },
+    "pricing": {
+      "title": "Start for free",
+      "subtitle": "Sign-up, blog, posts, and products are free. Paid plans will be announced later.",
+      "cta": "Get started free"
+    },
+    "cta": {
+      "title": "Get started now",
+      "subtitle": "Blog and commerce on one platform. Try it free.",
+      "cta": "Get started free"
+    },
+    "pages": {
+      "join": {
+        "title": "Create a blog",
+        "description": "Set your subdomain and blog name to get started.",
+        "backToMain": "Sellog home",
+        "needLogin": "To create a blog, please",
+        "loginLink": "log in",
+        "loginSuffix": ".",
+        "metaTitle": "Create a blog | Sellog",
+        "metaDescription": "Set your subdomain and blog name to create your blog."
+      },
+      "login": {
+        "title": "Log in",
+        "description": "Sign in with email and password or your social account.",
+        "backToMain": "Sellog home",
+        "noAccount": "Don't have an account?",
+        "signupLink": "Sign up",
+        "metaTitle": "Log in | Sellog",
+        "metaDescription": "Sign in with email, password, or a social account."
+      },
+      "signup": {
+        "title": "Sign up",
+        "description": "Register with email and password or your social account.",
+        "backToMain": "Sellog home",
+        "haveAccount": "Already have an account?",
+        "loginLink": "Log in",
+        "metaTitle": "Sign up | Sellog",
+        "metaDescription": "Register with email, password, or a social account."
+      },
+      "check": {
+        "title": "Connection status",
+        "backToMain": "Sellog home",
+        "metaTitle": "Connection status | Sellog",
+        "metaDescription": "Check Sellog service connection status.",
+        "dbCheckLabel": "Supabase DB connection (blogs query)",
+        "successMessage": "Environment variables and DB connection are OK. Try creating a blog again.",
+        "envHint": "After saving .env.local, stop the dev server in the terminal and run npm run dev again."
+      }
+    },
+    "support": { "blockTitle": "Need help?", "cta": "Get started free" }
+  },
+  "blog": {
+    "nav": {
+      "settings": "Settings",
+      "posts": "Posts",
+      "products": "Products",
+      "write": "New post",
+      "home": "Home"
+    },
+    "subtitle": {
+      "posts": "Posts",
+      "products": "Products",
+      "settings": "Settings",
+      "write": "New post",
+      "editProduct": "Edit product",
+      "checkout": "Order",
+      "checkoutOrder": "Checkout",
+      "checkoutCancel": "Order cancelled",
+      "checkoutFail": "Payment failed",
+      "checkoutSuccess": "Order complete"
+    },
+    "listLabel": {
+      "posts": "Post list",
+      "products": "Product list",
+      "default": "List"
+    },
+    "action": {
+      "newPost": "New post"
+    },
+    "recentPosts": "Recent posts",
+    "noPublishedPosts": "No published posts yet.",
+    "productNotFoundInEmbed": "Product not found: {{id}}",
+    "aria": {
+      "backToBlog": "Back to blog",
+      "bottomNav": "Bottom navigation"
+    },
+    "bottomNav": {
+      "home": "Home",
+      "posts": "Posts",
+      "products": "Products",
+      "settings": "Settings"
+    },
+    "posts": {
+      "filterAll": "All",
+      "filterDrafts": "Drafts",
+      "filterPublished": "Published",
+      "filterAria": "Post list filter",
+      "countSuffix": "",
+      "emptyTitle": "No posts yet",
+      "emptyDesc": "Write your first post.",
+      "emptyAction": "New post",
+      "noDrafts": "No drafts.",
+      "noPublished": "No published posts.",
+      "editedAt": "Edited",
+      "publishedAt": "Published",
+      "badgeDraft": "Draft",
+      "badgePublished": "Published",
+      "edit": "Edit",
+      "view": "View",
+      "error": {
+        "dbError": "Could not connect to the database.",
+        "invalidRequest": "Invalid request.",
+        "titleSlugRequired": "Please enter title and slug.",
+        "loginRequired": "Please sign in to save the post.",
+        "requiredFields": "Please fill in required fields.",
+        "slugDuplicate": "This slug is already in use.",
+        "unknown": "An error occurred while saving."
+      }
+    },
+    "section": {
+      "addProduct": "Add product",
+      "registeredProducts": "Products",
+      "blogInfo": "Blog info",
+      "myProfile": "My profile",
+      "myProfileDesc": "Name and profile image shown as the blog owner on the main page."
+    },
+    "settings": {
+      "nameLabel": "Blog name",
+      "namePlaceholder": "My shop",
+      "descriptionLabel": "Short description (optional)",
+      "descriptionPlaceholder": "Handmade cookies and jam",
+      "customDomainLabel": "Custom domain (optional)",
+      "customDomainPlaceholder": "myblog.com",
+      "customDomainHelp": "Connect a domain you own to access your blog at that address. Point the domain to this platform in your DNS settings.",
+      "subdomainNotice": "The subdomain ({{domain}}) cannot be changed.",
+      "save": "Save",
+      "saving": "Saving…",
+      "error": {
+        "dbError": "Could not connect to the database.",
+        "notFound": "Blog not found.",
+        "forbidden": "You don't have permission to edit this blog.",
+        "nameRequired": "Please enter a blog name.",
+        "customDomainInvalid": "Enter a valid custom domain (e.g. myblog.com).",
+        "loginRequired": "You need to sign in.",
+        "unknown": "An error occurred while saving."
+      },
+      "profile": {
+        "displayNameLabel": "Display name",
+        "displayNamePlaceholder": "Name shown on your blog",
+        "avatarUrlLabel": "Profile image URL (optional)",
+        "avatarUrlPlaceholder": "https://...",
+        "saveButton": "Save profile",
+        "savingButton": "Saving…"
+      }
+    },
+    "form": {
+      "save": "Save",
+      "saving": "Saving…",
+      "cancel": "Cancel"
+    },
+    "editor": {
+      "editTab": "Edit",
+      "previewTab": "Preview",
+      "insertProduct": "Insert product",
+      "insertProductHint": "Click to insert into body",
+      "bodyLabel": "Body (Markdown)",
+      "bodyPlaceholder": "Write in Markdown. Product embed: [product:id]",
+      "bodyPlaceholderWithInsert": "Write in Markdown. Product embed: [product:id] or use Insert product above",
+      "publishLabel": "Publish (check to make public)",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Post title",
+      "slugLabel": "URL slug",
+      "slugPlaceholder": "my-first-post",
+      "slugHint": "Letters, numbers, hyphens only (no spaces)",
+      "metaLabel": "Meta description (SEO, optional)",
+      "metaPlaceholder": "Summary for search and social (around 160 chars)",
+      "metaPlaceholderWithAi": "Summary for search and social (around 160 chars). Filled automatically when using AI summary.",
+      "metaHintChars": "{{count}}/200",
+      "metaHintRecommended": "(search engines recommend 160 or fewer)",
+      "metaHintAuto": "Leave empty to auto-extract from body.",
+      "thumbnailLabel": "Thumbnail URL (optional)",
+      "thumbnailPlaceholder": "https://...",
+      "aiGenerating": "Generating…",
+      "aiTitle": "AI title suggestion",
+      "aiSlug": "AI slug suggestion",
+      "aiSummary": "AI summary (meta)",
+      "aiHelperSummary": "AI helper (thumbnail alt · social copy · English summary)",
+      "aiAlt": "Thumbnail alt text (accessibility)",
+      "aiSocial": "Social share copy",
+      "aiSummaryEn": "English summary (meta)",
+      "metaResultLabel": "Meta description (SEO, copy to use)",
+      "toastTitleFilled": "Title filled",
+      "toastSummaryDone": "Summary generated. Reflected in meta description.",
+      "toastSlugFilled": "Slug filled"
+    },
+    "empty": {
+      "noProducts": "No products yet",
+      "noProductsDesc": "Add a product above, then embed it in posts with [product:id]."
+    },
+    "productCard": {
+      "noImage": "No image",
+      "buy": "Buy"
+    },
+    "products": {
+      "edit": "Edit",
+      "editAria": "Go to edit",
+      "currencySuffix": " KRW",
+      "form": {
+        "nameLabel": "Product name",
+        "namePlaceholder": "e.g. 6 cookies",
+        "priceLabel": "Price",
+        "pricePlaceholder": "15000",
+        "imageLabel": "Image (optional)",
+        "imageHint": "Select image from device (5MB max, JPG/PNG/GIF/WebP)",
+        "imageHintEdit": "Select a new image to replace (5MB max)",
+        "currentImage": "Current image",
+        "currentImageAlt": "Current product",
+        "descriptionLabel": "Description (optional)",
+        "descriptionPlaceholder": "Short description for the post",
+        "aiGenerating": "Generating…",
+        "aiName": "AI name suggestion",
+        "aiDescription": "AI description",
+        "aiImageAlt": "AI image alt text (accessibility)",
+        "addButton": "Add product",
+        "addingButton": "Adding…",
+        "toastNameFilled": "Name filled",
+        "toastDescriptionFilled": "Description filled",
+        "toastAdded": "Product added",
+        "toastSaved": "Product saved",
+        "defaultContext": "Product"
+      },
+      "error": {
+        "dbError": "Could not connect to the database.",
+        "createRequired": "Please enter blog and product name.",
+        "nameRequired": "Please enter a product name.",
+        "priceInvalid": "Please enter a valid price.",
+        "imageSizeMax": "Image must be 5MB or smaller.",
+        "unknown": "An error occurred while saving."
+      }
+    },
+    "delete": {
+      "delete": "Delete",
+      "deleting": "Deleting…",
+      "deletingAria": "Deleting",
+      "productConfirm": "Delete product \"{{name}}\"? This cannot be undone.",
+      "postConfirm": "Delete post \"{{title}}\"? This cannot be undone.",
+      "productAria": "Delete product \"{{name}}\"",
+      "postAria": "Delete post \"{{title}}\""
+    },
+    "editPost": {
+      "backToView": "View post",
+      "deleteConfirm": "Are you sure you want to delete this post? This cannot be undone.",
+      "dangerZoneTitle": "Danger zone",
+      "dangerZoneDesc": "Deleting this post cannot be undone.",
+      "deleteButton": "Delete post"
+    },
+    "home": {
+      "unavailableTitle": "{{domain}}'s blog",
+      "unavailableDesc": "This blog is not set up yet or posts could not be loaded."
+    },
+    "checkout": {
+      "selectProduct": "Please select a product.",
+      "backToBlog": "Back to blog",
+      "productNotFound": "Product not found.",
+      "orderTitle": "Order",
+      "cancelTitle": "Order cancelled",
+      "cancelDesc": "You did not complete payment. You can place an order again anytime.",
+      "failTitle": "Payment failed",
+      "failReasonCancelled": "Payment was cancelled.",
+      "failReasonWithReason": "Reason: {{reason}}",
+      "failReasonError": "A temporary error may have occurred. Please try again.",
+      "failRetry": "Try again",
+      "successTitle": "Order received",
+      "successOrderId": "Order ID: {{id}}…",
+      "successNoPayment": "Payment step will be available after payment integration.",
+      "form": {
+        "quantity": "Quantity",
+        "emailLabel": "Email (optional, for order contact)",
+        "emailPlaceholder": "you@example.com",
+        "notice": "Your order will be created. Payment step will be available after integration.",
+        "submit": "Place order",
+        "submitting": "Processing…",
+        "cancel": "Cancel"
+      },
+      "error": {
+        "dbError": "Could not connect to the database.",
+        "quantityInvalid": "Please check the quantity.",
+        "productNotFound": "Product not found.",
+        "unknown": "An error occurred while processing your order."
+      }
+    },
+    "notFound": {
+      "title": "Blog not found",
+      "goMain": "Go to home"
+    },
+    "forbidden": {
+      "title": "Access denied",
+      "description": {
+        "posts": "You don't have permission to view this blog's posts.",
+        "settings": "You don't have permission to change this blog's settings.",
+        "products": "You don't have permission to manage this blog's products.",
+        "write": "You don't have permission to write posts. Only the owner can write.",
+        "postEdit": "You don't have permission to edit this post.",
+        "productEdit": "You don't have permission to edit this product."
+      },
+      "goBlog": "Back to blog",
+      "goLogin": "Log in",
+      "viewPost": "View post",
+      "productList": "Product list"
+    }
+  }
+}

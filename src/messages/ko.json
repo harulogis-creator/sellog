@@ -1,0 +1,523 @@
+{
+  "common": {
+    "loading": "로딩 중…",
+    "error": {
+      "title": "문제가 발생했어요",
+      "description": "일시적인 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
+      "retry": "다시 시도",
+      "home": "홈으로"
+    },
+    "notFound": {
+      "title": "페이지를 찾을 수 없어요",
+      "description": "요청하신 주소가 없거나 이동했을 수 있습니다.",
+      "home": "홈으로"
+    },
+    "form": {
+      "email": "이메일",
+      "password": "비밀번호",
+      "passwordMin": "비밀번호 (6자 이상)"
+    },
+    "a11y": {
+      "skipToContent": "본문으로 건너뛰기"
+    },
+    "ai": {
+      "apiKeyRequired": "AI 기능을 사용하려면 서버에 OPENAI_API_KEY 환경 변수를 설정해 주세요.",
+      "noResponse": "AI가 응답을 생성하지 못했어요.",
+      "unknown": "AI 생성 중 오류가 났어요."
+    }
+  },
+  "www": {
+    "banner": {
+      "title": "무료로 시작하세요.",
+      "description": "신용카드 없이 가입하고, 몇 분 만에 블로그를 오픈할 수 있어요.",
+      "cta": "시작하기",
+      "closeLabel": "배너 닫기"
+    },
+    "meta": {
+      "title": "Sellog | 블로그와 커머스를 한 곳에서",
+      "description": "검색엔진에 최적화된 블로그 커머스 플랫폼. 블로그를 쓰고, 상품을 팔고, 하나의 주소로 브랜드를 키우세요.",
+      "ogDescription": "검색엔진에 최적화된 블로그 커머스 플랫폼."
+    },
+    "a11y": {
+      "skipToContent": "본문으로 건너뛰기"
+    },
+    "hero": {
+      "title": "블로그와 커머스를 한 곳에서",
+      "description": "검색엔진에 최적화된 블로그 커머스 플랫폼. 블로그를 쓰고, 상품을 팔고, 하나의 주소로 브랜드를 키우세요.",
+      "cta": "무료로 시작하기",
+      "ctaSub": "신용카드 불필요",
+      "tagline": "덜 구조화, 더 스마트하게."
+    },
+    "nav": {
+      "features": "기능",
+      "how": "시작하기",
+      "pricing": "가격",
+      "faq": "FAQ",
+      "login": "로그인",
+      "signup": "시작하기",
+      "myBlog": "내 블로그",
+      "logout": "로그아웃",
+      "ariaMainMenu": "메인 메뉴",
+      "ariaOpenMenu": "메뉴 열기",
+      "ariaCloseMenu": "메뉴 닫기",
+      "ariaMobileMenu": "모바일 메뉴"
+    },
+    "megamenu": {
+      "product": "제품",
+      "resources": "리소스"
+    },
+    "auth": {
+      "login": "로그인",
+      "loggingIn": "로그인 중…",
+      "signUp": "회원가입",
+      "signingUp": "가입 중…",
+      "orSocialLogin": "또는 소셜 계정으로 로그인",
+      "orSocialSignup": "또는 소셜 계정으로 가입",
+      "continueGitHub": "GitHub로 계속하기",
+      "continueGoogle": "Google로 계속하기",
+      "errors": {
+        "no_code": "로그인 요청이 만료되었거나 잘못되었습니다. 다시 시도해 주세요.",
+        "config": "서비스 설정 오류입니다. 관리자에게 문의해 주세요.",
+        "email_password_required": "이메일과 비밀번호를 입력해 주세요.",
+        "password_min_length": "비밀번호는 6자 이상이어야 해요.",
+        "unknown": "로그인·회원가입 처리 중 오류가 났어요. 다시 시도해 주세요."
+      }
+    },
+    "join": {
+      "subdomain": "서브도메인",
+      "name": "블로그 이름",
+      "description": "한 줄 소개 (선택)",
+      "subdomainPlaceholder": "my-shop",
+      "namePlaceholder": "김씨 공방",
+      "descriptionPlaceholder": "수제 쿠키와 잼을 만듭니다",
+      "subdomainTitle": "영문 소문자, 숫자, 하이픈만 사용",
+      "addressHint": "블로그 주소: 서브도메인.sellog.com (로컬: /서브도메인)",
+      "create": "블로그 만들기",
+      "creating": "만드는 중…",
+      "errors": {
+        "env_missing": "Supabase 환경 변수가 없어요. .env.local에 NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY를 넣고 개발 서버를 다시 실행해 주세요.",
+        "login_required": "블로그를 만들려면 로그인해 주세요.",
+        "subdomain_name_required": "서브도메인과 블로그 이름을 입력해 주세요.",
+        "subdomain_format": "서브도메인은 영문 소문자, 숫자, 하이픈만 사용할 수 있어요.",
+        "subdomain_min_length": "서브도메인은 2자 이상이어야 해요.",
+        "subdomain_taken": "이미 사용 중인 서브도메인이에요.",
+        "unknown": "저장 중 오류가 발생했습니다."
+      }
+    },
+    "footer": {
+      "product": "제품",
+      "support": "지원",
+      "company": "회사",
+      "follow": "팔로우",
+      "language": "언어",
+      "needHelp": "도움이 필요하신가요?",
+      "needHelpDesc": "FAQ와 연결 상태에서 도움을 받을 수 있어요.",
+      "faq": "FAQ",
+      "connectionCheck": "연결 상태",
+      "docs": "문서 (준비 중)",
+      "contact": "문의",
+      "about": "소개",
+      "comingSoon": "준비 중",
+      "korean": "한국어",
+      "english": "English",
+      "copyright": "검색엔진에 최적화된 블로그 커머스.",
+      "supportBlurb": "FAQ와 연결 상태에서 언제든 도움받을 수 있어요.",
+      "ariaLabelKorean": "한국어",
+      "ariaLabelEnglish": "English",
+      "termsOfService": "이용 약관",
+      "privacyPolicy": "개인정보 처리방침"
+    },
+    "features": {
+      "greatFor": "이런 분께",
+      "seo": "크리에이터 · 블로거 · 소상공인",
+      "blogCommerce": "블로거 · 셀러 · 콘텐츠 크리에이터",
+      "domain": "브랜드 · 개인사업자 · 팀",
+      "payment": "소상공인 · 드롭십 · 팬샵",
+      "editor": "글쓰는 사람 · 마케터",
+      "dashboard": "1인 크리에이터 · 소규모 팀"
+    },
+    "how": {
+      "title": "시작하는 방법",
+      "step1Title": "가입 & 블로그 만들기",
+      "step1Text": "이메일로 가입하고, 블로그 이름과 주소(서브도메인)를 정합니다.",
+      "step2Title": "글 쓰기 & 상품 등록",
+      "step2Text": "마크다운으로 글을 쓰고, 상품을 등록한 뒤 글 안에 상품 카드를 넣습니다.",
+      "step3Title": "공유 & 판매",
+      "step3Text": "블로그 주소를 공유하고, 필요하면 PG를 연동해 결제를 받습니다."
+    },
+    "showcase": {
+      "title": "Sellog로 만든 블로그",
+      "subtitle": "이미 많은 블로그가 Sellog에서 운영 중이에요."
+    },
+    "testimonial": {
+      "title": "이용자 이야기",
+      "quote1": "블로그와 판매를 한 곳에서 관리하게 되니 작업이 훨씬 단순해졌어요. SEO도 잘 잡혀 있어서 좋습니다.",
+      "author1": "Sellog 사용자",
+      "quote2": "코딩 없이 글쓰기와 상품 등록만으로 블로그 커머스를 시작할 수 있어서 부담이 적었어요.",
+      "author2": "Sellog 사용자"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "Sellog로 어떻게 블로그를 만드나요?",
+      "a1": "무료로 가입한 뒤, 블로그 만들기에서 서브도메인(예: myblog)과 블로그 이름을 입력하면 곧바로 블로그가 생성됩니다. 글쓰기와 상품 등록은 블로그 관리 메뉴에서 할 수 있어요.",
+      "q2": "웹사이트를 만들 때 코딩이 필요한가요?",
+      "a2": "아니요. Sellog는 코딩 없이 블로그와 상품을 관리할 수 있도록 설계되었습니다. 마크다운으로 글을 쓰고, 폼으로 상품을 등록하면 됩니다.",
+      "q3": "비용이 얼마나 드나요?",
+      "a3": "현재 무료로 시작할 수 있습니다. 가입·블로그 생성·글쓰기·상품 등록은 모두 무료이며, 결제(PG) 연동 시 해당 PG사 요금이 적용될 수 있어요. 유료 플랜은 추후 안내할 예정입니다.",
+      "q4": "내 도메인(커스텀 도메인)을 쓸 수 있나요?",
+      "a4": "네. 블로그 설정에서 커스텀 도메인을 입력하고, DNS에서 안내하는 대로 연결하면 본인 도메인으로 블로그에 접속할 수 있습니다.",
+      "q5": "검색엔진에 잘 노출되나요?",
+      "a5": "네. Next.js 기반으로 모든 페이지가 서버 렌더링되며, 메타 태그·Open Graph·사이트맵·robots.txt가 자동으로 구성됩니다.",
+      "q6": "결제는 어떻게 받나요?",
+      "a6": "체크아웃·주문 저장까지 Sellog에 구현되어 있습니다. 토스, 아임포트, 스트라이프 등 PG를 연동하면 실제 결제를 받을 수 있으며, 연동 방법은 문서를 참고해 주세요."
+    },
+    "proof": {
+      "label1": "블로그",
+      "sublabel1": "오픈 가능",
+      "label2": "SEO",
+      "sublabel2": "자동 최적화",
+      "label3": "한 곳",
+      "sublabel3": "블로그·상품·결제"
+    },
+    "allInOne": {
+      "title": "하나의 플랫폼에서 누리는 올인원",
+      "subtitle": "블로그, 상품, SEO, 도메인, 결제, 설정, 글쓰기, 주문까지.",
+      "blog": "블로그",
+      "product": "상품",
+      "seo": "SEO",
+      "domain": "도메인",
+      "payment": "결제",
+      "settings": "설정",
+      "writing": "글쓰기",
+      "orders": "주문"
+    },
+    "featuresSection": {
+      "title": "블로그와 판매를 하나로",
+      "subtitle": "SEO, 서브도메인, 결제까지. 올인원 플랫폼으로 일하는 방식만 바꾸면 됩니다."
+    },
+    "featuresCard": {
+      "titleSeo": "SEO 최적화",
+      "descSeo": "모든 페이지가 검색엔진에 노출되도록 SSR, 메타·사이트맵을 자동으로 관리합니다.",
+      "titleBlogCommerce": "블로그 + 상품",
+      "descBlogCommerce": "마크다운 에디터로 글을 쓰고, 글 안에 상품 카드를 넣어 자연스럽게 판매하세요.",
+      "titleDomain": "나만의 주소",
+      "descDomain": "서브도메인(you.sellog.com) 또는 커스텀 도메인으로 하나의 브랜드 주소를 사용합니다.",
+      "titlePayment": "결제·주문",
+      "descPayment": "체크아웃·주문 테이블이 준비되어 있어, PG 연동만 하면 바로 판매를 시작할 수 있습니다.",
+      "titleEditor": "마크다운 에디터",
+      "descEditor": "쉬운 글쓰기와 상품 삽입으로 콘텐츠와 상품을 한 화면에서 관리합니다.",
+      "titleDashboard": "한 곳에서 관리",
+      "descDashboard": "글, 상품, 설정, 주문을 블로그 대시에서 모두 처리할 수 있습니다."
+    },
+    "pricing": {
+      "title": "무료로 시작하세요",
+      "subtitle": "가입·블로그·글쓰기·상품 등록은 모두 무료입니다. 유료 플랜은 추후 안내할 예정이에요.",
+      "cta": "무료로 시작하기"
+    },
+    "cta": {
+      "title": "지금 바로 시작하세요",
+      "subtitle": "블로그와 커머스를 한 플랫폼에서. 무료로 체험해 보세요.",
+      "cta": "무료로 시작하기"
+    },
+    "pages": {
+      "join": {
+        "title": "블로그 만들기",
+        "description": "서브도메인과 블로그 이름을 정하면 곧 사용할 수 있어요.",
+        "backToMain": "Sellog 메인",
+        "needLogin": "블로그를 만들려면",
+        "loginLink": "로그인",
+        "loginSuffix": "해 주세요.",
+        "metaTitle": "블로그 만들기 | Sellog",
+        "metaDescription": "서브도메인과 블로그 이름을 정해 곧 사용할 수 있는 블로그를 만드세요."
+      },
+      "login": {
+        "title": "로그인",
+        "description": "이메일과 비밀번호 또는 소셜 계정으로 로그인하세요.",
+        "backToMain": "Sellog 메인",
+        "noAccount": "계정이 없으신가요?",
+        "signupLink": "회원가입",
+        "metaTitle": "로그인 | Sellog",
+        "metaDescription": "이메일·비밀번호 또는 소셜 계정으로 로그인하세요."
+      },
+      "signup": {
+        "title": "회원가입",
+        "description": "이메일과 비밀번호 또는 소셜 계정으로 가입하세요.",
+        "backToMain": "Sellog 메인",
+        "haveAccount": "이미 계정이 있으신가요?",
+        "loginLink": "로그인",
+        "metaTitle": "회원가입 | Sellog",
+        "metaDescription": "이메일·비밀번호 또는 소셜 계정으로 가입하세요."
+      },
+      "check": {
+        "title": "연결 상태 확인",
+        "backToMain": "Sellog 메인",
+        "metaTitle": "연결 상태 확인 | Sellog",
+        "metaDescription": "Sellog 서비스 연결 상태를 확인합니다.",
+        "dbCheckLabel": "Supabase DB 접속 (blogs 조회)",
+        "successMessage": "환경 변수와 DB 연결이 정상이에요. 블로그 만들기를 다시 시도해 보세요.",
+        "envHint": ".env.local을 저장한 뒤 터미널에서 개발 서버를 종료하고 npm run dev로 다시 실행해 주세요."
+      }
+    },
+    "support": { "blockTitle": "도움이 필요하신가요?", "cta": "무료로 시작하기" }
+  },
+  "blog": {
+    "nav": {
+      "settings": "설정",
+      "posts": "글 관리",
+      "products": "상품 관리",
+      "write": "새 글 쓰기",
+      "home": "홈"
+    },
+    "subtitle": {
+      "posts": "글 관리",
+      "products": "상품 관리",
+      "settings": "설정",
+      "write": "새 글 쓰기",
+      "editProduct": "상품 수정",
+      "checkout": "주문",
+      "checkoutOrder": "주문하기",
+      "checkoutCancel": "주문 취소",
+      "checkoutFail": "결제 실패",
+      "checkoutSuccess": "주문 완료"
+    },
+    "listLabel": {
+      "posts": "글 목록",
+      "products": "상품 목록",
+      "default": "목록"
+    },
+    "action": {
+      "newPost": "새 글 쓰기"
+    },
+    "recentPosts": "최근 글",
+    "noPublishedPosts": "아직 발행된 글이 없습니다.",
+    "productNotFoundInEmbed": "상품을 찾을 수 없음: {{id}}",
+    "aria": {
+      "backToBlog": "블로그로 돌아가기",
+      "bottomNav": "하단 메뉴"
+    },
+    "bottomNav": {
+      "home": "홈",
+      "posts": "글",
+      "products": "상품",
+      "settings": "설정"
+    },
+    "posts": {
+      "filterAll": "전체",
+      "filterDrafts": "초안",
+      "filterPublished": "발행됨",
+      "filterAria": "글 목록 필터",
+      "countSuffix": "개",
+      "emptyTitle": "아직 글이 없어요",
+      "emptyDesc": "새 글을 작성해 보세요.",
+      "emptyAction": "새 글 쓰기",
+      "noDrafts": "초안이 없어요.",
+      "noPublished": "발행된 글이 없어요.",
+      "editedAt": "수정",
+      "publishedAt": "발행",
+      "badgeDraft": "초안",
+      "badgePublished": "발행됨",
+      "edit": "수정",
+      "view": "보기",
+      "error": {
+        "dbError": "데이터베이스에 연결할 수 없습니다.",
+        "invalidRequest": "잘못된 요청입니다.",
+        "titleSlugRequired": "제목과 슬러그를 입력해 주세요.",
+        "loginRequired": "로그인한 뒤 글을 저장할 수 있습니다.",
+        "requiredFields": "필수 값을 입력해 주세요.",
+        "slugDuplicate": "이미 사용 중인 슬러그예요.",
+        "unknown": "저장 중 오류가 발생했습니다."
+      }
+    },
+    "section": {
+      "addProduct": "상품 추가",
+      "registeredProducts": "등록된 상품",
+      "blogInfo": "블로그 정보",
+      "myProfile": "내 프로필",
+      "myProfileDesc": "블로그 메인에 소유자로 표시되는 이름과 프로필 이미지입니다."
+    },
+    "settings": {
+      "nameLabel": "블로그 이름",
+      "namePlaceholder": "김씨 공방",
+      "descriptionLabel": "한 줄 소개 (선택)",
+      "descriptionPlaceholder": "수제 쿠키와 잼을 만듭니다",
+      "customDomainLabel": "커스텀 도메인 (선택)",
+      "customDomainPlaceholder": "myblog.com",
+      "customDomainHelp": "본인 소유 도메인을 연결하면 해당 주소로도 블로그에 접속할 수 있습니다. DNS에서 이 플랫폼으로 연결해야 합니다.",
+      "subdomainNotice": "서브도메인({{domain}})은 변경할 수 없습니다.",
+      "save": "저장",
+      "saving": "저장 중…",
+      "error": {
+        "dbError": "데이터베이스에 연결할 수 없습니다.",
+        "notFound": "블로그를 찾을 수 없습니다.",
+        "forbidden": "이 블로그를 수정할 권한이 없습니다.",
+        "nameRequired": "블로그 이름을 입력해 주세요.",
+        "customDomainInvalid": "커스텀 도메인은 예: myblog.com 형식으로 입력해 주세요.",
+        "loginRequired": "로그인이 필요합니다.",
+        "unknown": "저장 중 오류가 발생했습니다."
+      },
+      "profile": {
+        "displayNameLabel": "표시 이름",
+        "displayNamePlaceholder": "블로그에 표시될 이름",
+        "avatarUrlLabel": "프로필 이미지 URL (선택)",
+        "avatarUrlPlaceholder": "https://...",
+        "saveButton": "프로필 저장",
+        "savingButton": "저장 중…"
+      }
+    },
+    "form": {
+      "save": "저장",
+      "saving": "저장 중…",
+      "cancel": "취소"
+    },
+    "editor": {
+      "editTab": "편집",
+      "previewTab": "미리보기",
+      "insertProduct": "상품 삽입",
+      "insertProductHint": "클릭하면 본문에 삽입됩니다",
+      "bodyLabel": "본문 (마크다운)",
+      "bodyPlaceholder": "마크다운으로 작성하세요. 상품 임베드: [product:상품ID]",
+      "bodyPlaceholderWithInsert": "마크다운으로 작성하세요. 상품 임베드: [product:상품ID] 또는 위에서 상품 삽입",
+      "publishLabel": "발행하기 (체크 시 공개)",
+      "titleLabel": "제목",
+      "titlePlaceholder": "글 제목",
+      "slugLabel": "URL 슬러그",
+      "slugPlaceholder": "my-first-post",
+      "slugHint": "영문·숫자·하이픈만 사용 (공백 없이)",
+      "metaLabel": "메타 설명 (SEO·선택)",
+      "metaPlaceholder": "검색·SNS 공유 시 보일 요약 (160자 내외)",
+      "metaPlaceholderWithAi": "검색·SNS 공유 시 보일 요약 (160자 내외). AI 요약 생성 시 자동 채워짐",
+      "metaHintChars": "{{count}}/200자",
+      "metaHintRecommended": "(검색엔진 권장 160자 이하)",
+      "metaHintAuto": "비우면 본문에서 자동 추출돼요.",
+      "thumbnailLabel": "썸네일 URL (선택)",
+      "thumbnailPlaceholder": "https://...",
+      "aiGenerating": "생성 중…",
+      "aiTitle": "AI 제목 제안",
+      "aiSlug": "AI 슬러그 제안",
+      "aiSummary": "AI 요약 생성 (메타용)",
+      "aiHelperSummary": "AI 도우미 (썸네일 alt · SNS 카피 · 영문 요약)",
+      "aiAlt": "썸네일 대체 텍스트 (접근성)",
+      "aiSocial": "SNS 공유용 카피",
+      "aiSummaryEn": "영문 요약 (메타용)",
+      "metaResultLabel": "메타 설명 (SEO용, 복사해서 사용)",
+      "toastTitleFilled": "제목이 채워졌어요",
+      "toastSummaryDone": "요약이 생성됐어요. 메타 설명 필드에 반영돼요.",
+      "toastSlugFilled": "슬러그가 채워졌어요"
+    },
+    "empty": {
+      "noProducts": "아직 상품이 없어요",
+      "noProductsDesc": "위 폼에서 상품을 추가한 뒤 글에 [product:상품ID]로 삽입할 수 있어요."
+    },
+    "productCard": {
+      "noImage": "이미지 없음",
+      "buy": "구매하기"
+    },
+    "products": {
+      "edit": "수정",
+      "editAria": "수정으로 이동",
+      "currencySuffix": "원",
+      "form": {
+        "nameLabel": "상품명",
+        "namePlaceholder": "수제 쿠키 6개",
+        "priceLabel": "가격 (원)",
+        "pricePlaceholder": "15000",
+        "imageLabel": "이미지 (선택)",
+        "imageHint": "PC에서 이미지 선택 (5MB 이하, JPG/PNG/GIF/WebP)",
+        "imageHintEdit": "바꿀 이미지가 있으면 PC에서 선택 (5MB 이하)",
+        "currentImage": "현재 이미지",
+        "currentImageAlt": "현재 상품",
+        "descriptionLabel": "상품 설명 (선택)",
+        "descriptionPlaceholder": "글에서 보여줄 짧은 설명",
+        "aiGenerating": "생성 중…",
+        "aiName": "AI 상품명 제안",
+        "aiDescription": "AI 설명 생성",
+        "aiImageAlt": "AI 이미지 대체 텍스트 (접근성)",
+        "addButton": "상품 추가",
+        "addingButton": "추가 중…",
+        "toastNameFilled": "상품명이 채워졌어요",
+        "toastDescriptionFilled": "설명이 채워졌어요",
+        "toastAdded": "상품이 추가됐어요",
+        "toastSaved": "상품이 저장됐어요",
+        "defaultContext": "상품"
+      },
+      "error": {
+        "dbError": "데이터베이스에 연결할 수 없습니다.",
+        "createRequired": "블로그 정보와 상품명을 입력해 주세요.",
+        "nameRequired": "상품명을 입력해 주세요.",
+        "priceInvalid": "올바른 가격을 입력해 주세요.",
+        "imageSizeMax": "이미지는 5MB 이하여야 합니다.",
+        "unknown": "저장 중 오류가 발생했습니다."
+      }
+    },
+    "delete": {
+      "delete": "삭제",
+      "deleting": "삭제 중…",
+      "deletingAria": "삭제 중",
+      "productConfirm": "\"{{name}}\" 상품을 삭제할까요? 삭제 후에는 복구할 수 없어요.",
+      "postConfirm": "\"{{title}}\" 글을 삭제할까요? 삭제 후에는 복구할 수 없어요.",
+      "productAria": "\"{{name}}\" 상품 삭제",
+      "postAria": "\"{{title}}\" 글 삭제"
+    },
+    "editPost": {
+      "backToView": "글 보기",
+      "deleteConfirm": "정말 이 글을 삭제할까요? 삭제 후에는 복구할 수 없어요.",
+      "dangerZoneTitle": "위험 영역",
+      "dangerZoneDesc": "글을 삭제하면 복구할 수 없어요.",
+      "deleteButton": "글 삭제"
+    },
+    "home": {
+      "unavailableTitle": "{{domain}}의 블로그",
+      "unavailableDesc": "아직 블로그가 설정되지 않았거나 글을 불러올 수 없습니다."
+    },
+    "checkout": {
+      "selectProduct": "상품을 선택해 주세요.",
+      "backToBlog": "블로그로 돌아가기",
+      "productNotFound": "상품을 찾을 수 없습니다.",
+      "orderTitle": "주문",
+      "cancelTitle": "주문이 취소되었습니다",
+      "cancelDesc": "결제를 진행하지 않으셨습니다. 언제든 다시 주문하실 수 있습니다.",
+      "failTitle": "결제에 실패했습니다",
+      "failReasonCancelled": "결제가 취소되었습니다.",
+      "failReasonWithReason": "사유: {{reason}}",
+      "failReasonError": "일시적인 오류일 수 있습니다. 다시 시도해 주세요.",
+      "failRetry": "다시 주문하기",
+      "successTitle": "주문이 접수되었습니다",
+      "successOrderId": "주문 번호: {{id}}…",
+      "successNoPayment": "결제 연동 후 결제 단계가 제공됩니다.",
+      "form": {
+        "quantity": "수량",
+        "emailLabel": "이메일 (선택, 주문 연락용)",
+        "emailPlaceholder": "you@example.com",
+        "notice": "주문이 생성되며 결제는 준비 중입니다. 결제 연동 후 결제 단계가 추가됩니다.",
+        "submit": "주문하기",
+        "submitting": "처리 중…",
+        "cancel": "취소"
+      },
+      "error": {
+        "dbError": "데이터베이스에 연결할 수 없습니다.",
+        "quantityInvalid": "수량을 확인해 주세요.",
+        "productNotFound": "상품을 찾을 수 없습니다.",
+        "unknown": "주문 처리 중 오류가 발생했습니다."
+      }
+    },
+    "notFound": {
+      "title": "블로그를 찾을 수 없습니다",
+      "goMain": "메인으로"
+    },
+    "forbidden": {
+      "title": "권한이 없습니다",
+      "description": {
+        "posts": "이 블로그의 글 목록을 볼 수 없어요.",
+        "settings": "이 블로그 설정을 변경할 수 없어요.",
+        "products": "이 블로그의 상품을 관리할 수 있는 권한이 없어요.",
+        "write": "이 블로그의 글을 쓸 수 있는 권한이 없어요. 소유자만 글을 작성할 수 있습니다.",
+        "postEdit": "이 글을 수정할 수 없어요.",
+        "productEdit": "이 상품을 수정할 수 없어요."
+      },
+      "goBlog": "블로그로",
+      "goLogin": "로그인",
+      "viewPost": "글 보기",
+      "productList": "상품 목록"
+    }
+  }
+}

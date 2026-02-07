@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sellog.com
+
+# Sitemaps
+Sitemap: https://sellog.com/sitemap.xml
